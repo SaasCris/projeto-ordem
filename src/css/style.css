@@ -1,0 +1,160 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #07060c;
+    color: #faf5f5;
+}
+
+body.modo-claro {
+    background-color: #d6d6d6;
+    color: #000000;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #000000;
+}
+
+header.modo-claro{
+    background-color: #fcfcfc;
+
+}
+
+
+header .imagem-botao {
+    width: 60px;
+
+}
+
+header .logo{
+    width: 75px;
+    height: 75px;
+}
+
+header #botao-alterar-tema {
+    background: none;
+    border: none;
+}
+
+header .logo:hover,
+header .imagem-botao:hover,
+main .cartao-personagens:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+main {
+    padding: 25px;
+}
+
+
+main .listagem-personagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+main .cartao-personagens {
+    background-color: #050505;
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+main .cartao-personagens:hover {
+    background-color: #000000;
+
+}
+
+.modo-claro .cartao-personagens {
+    background-color: #eeecec;
+}
+
+.modo-claro .cartao-personagens:hover {
+    background-color: #ffffff;
+}
+
+
+main .cartao-personagens .informacoes {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #333333;
+    border-radius: 10px;
+
+}
+
+main .cartao-personagens .informacoes span {
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+main .cartao-personagens .foto {
+    width: 100px;
+    height: 200px
+}
+
+main .cartao-personagens .tipos {
+    display: flex;
+    gap: 15px;
+}
+
+main .cartao-personagens .tipo {
+    padding: 8x;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+}
+
+.agente {
+    background-color: #383838;
+}
+
+.abutres {
+    background-color: #238d3a;
+}
+
+.mascarado {
+    background-color: #971717;
+}
+
+.cineraria {
+    background-color: #751083;
+}
+
+.liderdaordorealitas{
+    background-color: #530023;
+}
+
+.ocultista{
+    background-color: #d1ce05;
+}
+
+.escripta{
+    background-color: #940404;
+}
+
+.liderEscriptas{
+    background-color: #746303;
+}
+
+main .descricao {
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 12px;
+    padding-right: 10px;
+    text-align: center;
+    
+    
+}
+

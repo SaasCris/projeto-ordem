@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Pokémon</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/rename.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#">
+            <img src="./src/imagens/OrdoRealitas.png" alt="OrdoRealitas" class="logo">
+        </a>
+        <button id="botao-alterar-tema">
+            <img src="./src/imagens/DanteBandana.png" alt="DanteBandana" class="imagem-botao">
+        </button>
+    </header>
+
+<!-- <div class="logoOrdemParanormal">
+        <img src="./src/imagens/OrdemParanormalLogo.png" alt="OrdemParanormalLogo">
+    </div> -->
+
+    <main>
+        <ul class="listagem-personagens">
+            <li class="cartao-personagens">
+                <div class="informacoes">
+                    <span>Arthur Cervero</span>
+                </div>
+
+                <img src="./src/imagens/ArthurCervero.png" alt="ArthurCervero" class="foto">
+
+                <ul class="tipos">
+                    <li class="tipo agente">Agente</li>
+                    <li class="tipo abutres">Abutres</li>
+                </ul>
+
+                <p class="descricao">Arthur Cervero, após perder quase tudo que tinha, se juntou à 
+                    Ordo Realitas para conseguir proteger o que restou.<br><br>
+                    "Eu sou um Gaudério... E a gente morre por quem a gente ama."<br>
+                </p>
+            </li>
+
+            <li class="cartao-personagens">
+                <div class="informacoes">
+                    <span>Joui Jouki</span>
+                </div>
+
+                <img src="./src/imagens/JouiJouki.png" alt="JouiJouki" class="foto">
+
+                <ul class="tipos">
+                    <li class="tipo agente">Agente</li>
+                    <li class="tipo mascarado">Mascarado</li>
+                </ul>
+
+                <p class="descricao">Joui Jouki é um agente da Ordo Realitas que decidiu 
+                    adaptar seus métodos após uma primeira missão traumática.<br><br>
+                    "Vocês acham que eu sou um herói?! Eu sou um guerreiro!"<br>
+                </p>
+            </li>
+
+            <li class="cartao-personagens">
+                <div class="informacoes">
+                    <span>Cesar Cohen</span>
+                </div>
+
+                <img src="./src/imagens/CesarCohen.png" alt="CesarCohen" class="foto">
+
+                <ul class="tipos">
+                    <li class="tipo agente">Agente</li>
+                    <li class="tipo cineraria">Cinerária</li>
+                </ul>
+
+                <p class="descricao">Kaiser é um habilidoso hacker responsável por desenvolver a Central de Reconhecimento de Irregularidades Sobrenaturais, uma inteligência artificial que detecta atividades paranormais.<br><br>
+                    "Hoje... eu não sou Cesar, eu não sou Kaiser... eu sou o Angel of The Night."<br>
+                </p>
+            </li>
+
+            <li class="cartao-personagens">
+                <div class="informacoes">
+                    <span>Dante</span>
+                </div>
+
+                <img src="./src/imagens/Dante.png" alt="Dante" class="foto">
+
+                <ul class="tipos">
+                    <li class="tipo agente">Agente</li>
+                    <li class="tipo ocultista">Ocultista</li>
+                </ul>
+
+                <p class="descricao"> 
+                    Dante foi um ocultista preso por Tristan e Erin em janeiro, estando pessoalmente envolvido com Leonardo Gomes,
+                     o responsável pelo ritual que uniu Luciano e Fernando.
+
+                    <br><br>
+
+                     "É ironia do destino. É realmente uma Divina Comédia."
+                </p>
+            </li>
+
+            <li class="cartao-personagens">
+                <div class="informacoes">
+                    <span>Sr Verírssimo</span>
+                </div>
+
+                <img src="./src/imagens/SrVerissimo.png" alt="SrVerissimo" class="foto">
+
+                <ul class="tipos">
+                    <li class="tipo liderdaordorealitas">Líder da Ordo Realitas</li>
+                </ul>
+
+                <p class="descricao"> 
+                     Ele é o líder da Ordem e responsável por mandar os personagens em suas missões em todas as temporadas, 
+                     além de ter treinado vários agentes da Ordem, incluindo sua filha.<br><br>
+
+                     "Se esses monstros são capazes de sentir algo, é melhor que também sintam medo. Porque nós estaremos em seu caminho."
+                </p>
+            </li>
+
+            <li class="cartao-personagens">
+                <div class="informacoes">
+                    <span>T-Bag</span>
+                </div>
+
+                <img src="./src/imagens/TheodoreBagwell.png" alt="T-bag" class="foto">
+
+                <ul class="tipos">
+                    <li class="tipo escripta">Escripta</li>
+                    <li class="tipo ocultista">Ocultista</li>
+                </ul>
+
+                <p class="descricao"> 
+                    Ele era um dos Marcados do lado de Kian, o auxiliando nos seus planos para destruir o 
+                    paranormal com ajuda de outros Ocultistas, apesar de estar mais interessado na proteção 
+                    dos Escriptas na ajuda de sua sobrevivência.<br><br>
+
+                     "Objetivo eu já perdi faz tempo, mas eu já tô aqui. Se for pra matar ou pra morrer... Eu quero é bater primeiro."
+                </p>
+            </li>
+
+            <li class="cartao-personagens">
+                <div class="informacoes">
+                    <span>Gal</span>
+                </div>
+
+                <img src="./src/imagens/Gal.png" alt="Gal" class="foto">
+
+                <ul class="tipos">
+                    <li class="tipo escripta">Escripta</li>
+                    <li class="tipo ocultista">Ocultista</li>
+                </ul>
+
+                <p class="descricao"> 
+                    Gal foi apresentado primeiramente como um antagonista em Desconjuração, sendo o líder dos Escriptas, também conhecidos como Culto do Conhecimento. <br><br>
+
+                     "Injustiça, né? Muito prazer, eu sou a injustiça."
+                </p>
+            </li>
+
+            <li class="cartao-personagens">
+                <div class="informacoes">
+                    <span>Alef Freneza</span>
+                </div>
+
+                <img src="./src/imagens/AlefFreneza.png" alt="AlefFreneza" class="foto">
+
+                <ul class="tipos">
+                    <li class="tipo escripta">Escripta</li>
+                    <li class="tipo ocultista">Ocultista</li>
+                </ul>
+
+                <p class="descricao"> 
+                    Alef Freneza foi um jovem que se juntou aos Escriptas após o final de Desconjuração.<br><br>
+
+                     "Quando é que eu vou ter que atirar?"
+                </p>
+            </li>
+
+            <li class="cartao-personagens">
+                <div class="informacoes">
+                    <span>Damir Lukic</span>
+                </div>
+
+                <img src="./src/imagens/DamirLucik.png" alt="DamirLucik" class="foto">
+
+                <ul class="tipos">
+                    <li class="tipo escripta">Escripta</li>
+                    <li class="tipo ocultista">Ocultista</li>
+                </ul>
+
+                <p class="descricao"> 
+                    Damir é um estiloso ocultista que sempre se mantém próximo a seu irmão, Boris Lukic.<br><br>
+
+                     "Eu não quero que ninguém mais sofra... muito menos por consequência de coisas que eu fiz."
+                </p>
+            </li>
+
+            <li class="cartao-personagens">
+                <div class="informacoes">
+                    <span>Kian</span>
+                </div>
+
+                <img src="./src/imagens/Kian.png" alt="Kian" class="foto">
+
+                <ul class="tipos">
+                    <li class="tipo liderEscriptas">Líder dos Escriptas</li>
+                </ul>
+
+                <p class="descricao"> 
+                    O que tá na frente de vocês não é mais um ser humano, nunca foi. Vocês tão na frente de um monstro.<br><br>
+
+                     "Eu ainda sou imortal."
+                </p>
+            </li>
+        </ul>
+    </main>
+
+<script src="./src/js/index.js"></script>
+</body>
+
+</html>
